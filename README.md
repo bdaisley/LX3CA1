@@ -11,6 +11,7 @@ Code used to generated each figure is provided in a separate file for clarity. I
 Ensure permissions are granted to both files (e.g. chmod +x custom_tax_script.sh | custom_tax_script_Rscript.R) and that you set the database locations in the "custom_tax_script.sh" file before starting.
 
 Dependencies:
+
 usearch (v11.0.667_i86linux32 used for testing)
 vsearch (vsearch v2.7.0_linux_x86_64 used for testing)
 
@@ -20,7 +21,9 @@ Basic command line format:
 ./custom_tax_script.sh <ASV sequence fasta file> <ASV count table file>
 
 ---------- Example ----------
+  
 Lets consider a case where your files are named as follows:
+  
 1) ASV_seqs.fasta
 2) ASV_counts.txt
 ./custom_tax_script.sh ASV_seqs.fasta ASV_counts.txt
