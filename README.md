@@ -19,7 +19,7 @@ To run the full pipeline assuming a standard 16S rRNA sequencing dataset, simply
 
 Basic command line format:
 
-./custom_tax_script.sh file1 file2
+./custom_tax_script.sh input_file_1 input_file_2
 
 ---------- Example ----------
   
