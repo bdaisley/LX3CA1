@@ -1,4 +1,4 @@
-# California field-study on patty- and spray-based LX3 suppelementation in honey bees
+# California field study on patty- and spray-based LX3 suppelementation in honey bees
 
 This code is related to a manuscript currently under review. Public access will be granted upon manuscript acceptance for publication. 
 
