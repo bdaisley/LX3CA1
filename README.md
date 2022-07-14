@@ -18,6 +18,7 @@ vsearch (vsearch v2.7.0_linux_x86_64 used for testing)
 To run the full pipeline assuming a standard 16S rRNA sequencing dataset, simply open a new terminal in the directory containing the 2 scripts and 2 input files described above and run:
 
 Basic command line format:
+
 ./custom_tax_script.sh <ASV sequence fasta file> <ASV count table file>
 
 ---------- Example ----------
@@ -26,5 +27,6 @@ Lets consider a case where your files are named as follows:
   
 1) ASV_seqs.fasta
 2) ASV_counts.txt
+
 ./custom_tax_script.sh ASV_seqs.fasta ASV_counts.txt
 
