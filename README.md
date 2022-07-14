@@ -19,21 +19,9 @@ To run the full pipeline assuming a standard 16S rRNA sequencing dataset, simply
 Basic command line format:
 ./custom_tax_script.sh <ASV sequence fasta file> <ASV count table file>
 
-## Example
+---------- Example ----------
 Lets consider a case where your files are named as follows:
 1) ASV_seqs.fasta
 2) ASV_counts.txt
 ./custom_tax_script.sh ASV_seqs.fasta ASV_counts.txt
-
-
-
-
-
-
-
-
-
-
-
-
 
