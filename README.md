@@ -3,7 +3,7 @@
 This code is related to a manuscript currently under review. Public access will be granted upon manuscript acceptance for publication. 
 
 # Figures
-Code used to generated each figure is provided in separate files for clarity. If running in a singular script format, ensure scripts are run in order (e.g. Fig1, Fig2, Fig3, etc) to prevent errors.
+Code used to generated each figure is provided in a separate file for clarity. If running in a singular script format, ensure scripts are run in order (e.g. Fig1, Fig2, Fig3, etc) to prevent errors.
 
 # Custom scripts for assigning denovo taxonomy to sequences derived from unclassified microbial dark matter
 "custom_tax_script.sh" and "custom_tax_script_Rscript.R" should both be saved in the same directory, along with two necessary files: 1) ASV count table generated from DADA2 pipeline, and 2) Fasta file of ASV sequences (names should match rownames of ASV count table). See example files for formatting reference.
