@@ -11,22 +11,22 @@ Code used to generated each figure is provided in a separate file for clarity. I
 Ensure permissions are granted to both files (e.g. chmod +x custom_tax_script.sh | chmod +x custom_tax_script_Rscript.R, on a linux-based system) and that you set the database locations in the "custom_tax_script.sh" file before starting.
 
 Dependencies:
+usearch (v11.0.667_i86linux32 used for testing) # Available from https://www.drive5.com/usearch/download.html
 
-usearch (v11.0.667_i86linux32 used for testing)
-vsearch (vsearch v2.7.0_linux_x86_64 used for testing)
+To run the full pipeline assuming a standard 16S rRNA sequencing dataset, simply open a new terminal in the directory containing the 2 scripts and 2 input files described above and run:
 
-To run the full pipeline assuming a standard 16S rRNA sequencing dataset, simply open a new terminal in the directory containing the 2 scripts and 2 input files described above and run the basic command line format:
 
-./custom_tax_script.sh input_file_1 input_file_2
+<pre class="r"><code>#Basic command line format:
+./custom_tax_script.sh [input_file_1] [input_file_2]
 
-input_file_1 being the fasta file, and input_file2 being the ASV counts table
+# input_file_1 being the fasta file, and input_file2 being the ASV counts table</code></pre>
 
----------- Example ----------
-  
+---------- Example ----------</br>
 Lets consider a case where your files are named as follows:
   
 1) ASV_seqs.fasta
 2) ASV_counts.txt
 
-./custom_tax_script.sh ASV_seqs.fasta ASV_counts.txt
+<pre class="r"><code>./custom_tax_script.sh ASV_seqs.fasta ASV_counts.txt</code></pre>
+
 
